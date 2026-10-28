@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+backend/**/bin/
+backend/**/obj/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
